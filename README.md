@@ -2,7 +2,7 @@
 
 Three CUDA matrix multiplication kernels written from scratch, integrated into PyTorch via C++ extensions, and benchmarked against cuDNN across a range of input sizes. Each kernel introduces a specific optimization, and the benchmark suite measures the isolated impact of each one.
 
-The project was motivated by a question: how much performance can you recover from a naïve implementation by understanding the GPU memory hierarchy — and how close can you get to cuBLAS?
+The project was motivated by a question: how much performance can you recover from a naïve implementation by understanding the GPU memory hierarchy and how close can you get to cuBLAS?
 
 ---
 
